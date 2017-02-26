@@ -1,0 +1,72 @@
+/* Navbar */
+#main-navigation{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 0px;
+}
+#main-navigation .navbar-header a{
+	color:#fff;
+	font-weight:bold;
+}
+#main-navigation .navbar-logo{
+	display: inline;
+	float: left;
+	margin: 10px 4px;
+}
+nav.navbar-default{
+	margin-bottom: 0px;
+	background:transparent;
+	border:none;
+}
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+}
+.navbar-default .navbar-nav > li > a{
+	color:white;
+	font-weight:bold;
+}
+.navbar-default .navbar-nav a{
+	text-transform:uppercase;
+	border-bottom:2px solid transparent;
+}
+.navbar-default .navbar-nav a:hover,
+.navbar-default .navbar-nav a:focus{
+	background-color: transparent;
+	color:#F60;
+	border-bottom:2px solid #fff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-default .navbar-nav li.active a{
+	background-color: transparent;
+	color:#F60;
+	border-bottom:2px solid #fff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.navbar-default .navbar-nav li.active a:hover{
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus{
+	color:#F60;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+	background-color:transparent;
+	color:#F60;
+	border-color: #F60;
+	border-radius: 0px; 
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#F60;
+}

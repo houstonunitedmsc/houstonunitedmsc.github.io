@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
+body{
+	background-color:#f8f8f8;
+	color: #444444;
+	font-family: 'Ubuntu', sans-serif;
+}
+a,
+a:hover,
+a:active,
+a:focus{
+color: #f60;
+	text-decoration: none;
+}
+.paper{
+	background-color:#FFF;
+	margin-top:20px;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.paper .content{
+	padding:15px;
+}
+.paper > img.cover{
+	width: 100%;
+}
+
+header.home{
+	background-image: url('../img/soccer-ground.jpg');
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+header.home .head{
+	padding: 200px 20px;
+}
+
+header.home h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+header.home h1 span{
+	padding: 20px;
+	border-radius: 6px;
+	/* background-color:rgba(0,0,0); */
+}
+header.home h1 a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+#main-container{
+	margin-top: 15px;
+}
+
+.sidebar{
+	padding: 10px;
+}
+
+footer .head,
+.sidebar .head{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.form-control:active,
+.form-control:hover,
+.form-control:focus{
+	box-shadow: none;
+	border-color: #f60;
+}
+
+/* form */
+.form .form-control,
+.form .btn-custom{
+	box-shadow: none;
+	border-radius: 0px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.form .btn-custom{
+	border-color: #ccc;	
+}
+.form .btn-custom:active,
+.form .btn-custom:hover,
+.form .btn-custom:focus{
+	border-color: #f60;
+	color: #f60;
+}
+img.res{
+	width: 100%;
+}
+
+#social-buttons{
+	padding:0px 10px; 
+}
+#social-buttons > div{
+	padding: 0px 4px;
+}
+
+
+footer{
+	margin-top: 20px;
+	padding:10px 0px;
+	background-color: #666;
+	color: white;
+}
+footer ul{
+	padding-left: 0px;
+	list-style-type: none;
+}
