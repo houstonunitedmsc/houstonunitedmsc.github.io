@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Gallery
-permalink: /gallery/
+permalink: /gallery
 ---
+
+Hello Gallery !
 {% for photo in site.photos %}
-{{ photo.image }}
+	{{ photo.image }}
 {% endfor %}

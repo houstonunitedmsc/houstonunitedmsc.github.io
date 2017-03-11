@@ -1,1 +1,7 @@
-These are the rules for HoustonUnited msc
+---
+layout: page
+title: Rules
+permalink: /rules
+---
+
+Hello rules !
