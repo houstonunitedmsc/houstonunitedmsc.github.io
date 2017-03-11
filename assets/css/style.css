@@ -24,33 +24,17 @@ color: #f60;
 .paper > img.cover{
 	width: 100%;
 }
-
-header.home{
-	background-image: url('../img/soccer-ground.jpg');
-	background-position: top center;
-	-webkit-background-size: cover;
-	background-size: cover;
-	color: white;
+#main-slider{
+	/* margin-top: -52px; */
 }
-header.home .head{
-	padding: 200px 20px;
+#main-slider .item img{
+	width: 100%;
 }
-
-header.home h1{
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 500;
+#main-slider .item h1{
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
 }
-header.home h1 span{
-	padding: 20px;
-	border-radius: 6px;
-	background-color:rgba(0,0,0,0.3);
-}
-header.home h1 a{
-	text-decoration: none;
-	color: #eee;
-}
-
 
 #main-container{
 	margin-top: 15px;
