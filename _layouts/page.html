@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
-
+<section class="post">
 	<header>
 		{% include navbar.html %}
-		<h1>{{ page.title }}</h1>
+		{% include slider.html %}
 	</header>
 
-	<div>
+	<article class="container">
+		<h1>{{ page.title }}</h1>
 		{{ content }}
-	</div>
-
-</article>
+	</article>
+</section>
