@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="album">
+	<header>
+		{% include navbar.html %}
+		{% include slider.html %}
+	</header>
+
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.description }}</p>
+		{% for image in page.images %}
+		<div class="col-sm-4 album-image">	
+			<img src="{{ site.baseurl }}/uploads/albums/{{ page.album_path }}/{{ image }}" alt="">
+		</div>
+		{% endfor %}
+	</div>
+</section>
