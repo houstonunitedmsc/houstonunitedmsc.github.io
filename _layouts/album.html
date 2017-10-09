@@ -10,10 +10,13 @@ layout: default
 	<div class="container">
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.description }}</p>
+		<div class="row" id="dyngrid">
+			
 		{% for image in page.images %}
-		<div class="col-sm-4 album-image">	
+		<div class="col-sm-4 dyn-item">	
 			<img src="{{ site.baseurl }}/uploads/albums/{{ page.album_path }}/{{ image }}" alt="">
 		</div>
 		{% endfor %}
+		</div>
 	</div>
 </section>
