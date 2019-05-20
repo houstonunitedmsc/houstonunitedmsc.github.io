@@ -4,4 +4,4 @@ title: Docs
 permalink: /docs
 ---
 
-Download <a href="{{ site.baseurl }}/uploads/docs/waiver-kids-soccer-training.docx">Waiver Kids Soccer Training</a>
+Download <a href="{{ site.baseurl }}/uploads/SUMMER_SOCCER_CAMP_WAIVER_FORM_.doc">Waiver Kids Soccer Training</a>
