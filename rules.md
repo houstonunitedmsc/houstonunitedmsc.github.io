@@ -4,4 +4,4 @@ title: Rules
 permalink: /rules
 ---
 
-Hello rules !!
+Hello rules !!!
